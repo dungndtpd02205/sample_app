@@ -32,3 +32,8 @@ end
 group :production do
   gem 'pg', '1.2.3'
 end
+
+group :development, :test do
+  gem "rubocop", "~> 0.74.0", require: false
+  gem "rubocop-rails", "~> 2.3.2", require: false
+end
