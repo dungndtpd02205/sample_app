@@ -1,0 +1,14 @@
+<% provide(:title, t( "static_pages.about" )) %>
+<h1><%= t( "static_pages.about" ) %></h1>
+<p>
+  <%= link_to t( "static_pages.base_title" ), t( "link.base_link" )%>
+  <%= t( "about.paragraph_1" ) %>
+  <%= link_to "Learn Enough", t( "link.learn_enough" ) %>
+  <%= t( "about.paragraph_2" ) %>
+  <%= link_to t( "help.paragraph_3" ), t( "link.book" ) %>
+  <%= t( "about.and" ) %>
+  <%= link_to "screencast series", t( "link.screen" ) %>
+  <%= t( "about.paragraph_3" ) %>
+  <%= link_to t( "static_pages.ruby" ), t( "link.rails" ) %>
+  <%= t( "about.paragraph_4" ) %>
+</p>
