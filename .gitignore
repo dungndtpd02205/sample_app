@@ -42,3 +42,8 @@ app/helpers/users_helper.rb
 test/**/*
 app/assets/images/rails-logo.svg
 Gemfile.lock
+
+config/settings.local.yml
+config/initializers/config.rb
+config/settings/*
+
