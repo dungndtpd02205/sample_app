@@ -1,0 +1,44 @@
+vi:
+  static_pages:
+    home: "Trang chủ"
+    help: "Giúp đỡ"
+    login: "Đăng nhập"
+    eng: "Tiếng anh"
+    vie: "Tiệng việt"
+    about: "Thông tin"
+    contact: "Liên hệ"
+    news: "Tin mới"
+    base_title: "Hướng dẫn Ruby on Rails"
+    ruby: "Ruby on Rails"
+    app: "Sample App"
+  link:
+    base_link: "https://www.railstutorial.org/"
+    michael: "https://www.michaelhartl.com/"
+    learn_enough: "https://www.learnenough.com/"
+    book: "https://www.railstutorial.org/book"
+    screen: "https://screencasts.railstutorial.org/"
+    rails: "https://rubyonrails.org/"
+    contact: "https://www.railstutorial.org/contact"
+    help: "https://www.railstutorial.org/help"
+  about:
+    paragraph_1: ", là một phần của"
+    paragraph_2: "trong phần hướng dẫn, đó là"
+    and: " và"
+    paragraph_3: " với mỗi trang web được phát triển bởi"
+    paragraph_4: ". Đây là một chương trình mẫu cho phần hướng dẫn."
+  contact:
+    page: "Trang liên hệ"
+    paragraph_1: "Liên hệ Ruby on rails tutorial để biết thêm về chươn trình mẫu tại "
+  help:
+    page: "Trang hỗ trợ Rails Tutorial"
+    paragraph_1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+    paragraph_2: ". Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+    paragraph_3: " sách."
+  home:
+    welcome: "Welcome to the Sample App"
+    paragraph_1: "Đây là trang chủ của "
+    paragraph_2: "ứng dụng mẫu."
+    signup: "Đăng ký ngay!"
+  users:
+    title: "Thêm mới người dùng"
+    paragraph_1: "Find me in app/views/users/new.html.erb</"

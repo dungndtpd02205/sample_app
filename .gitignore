@@ -34,3 +34,11 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+app/assets/stylesheets/static_pages.scss
+.rubocop.yml
+.rubocop_disabled.yml
+.rubocop_enabled.yml
+app/helpers/users_helper.rb
+test/**/*
+app/assets/images/rails-logo.svg
+Gemfile.lock

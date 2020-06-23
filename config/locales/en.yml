@@ -30,4 +30,47 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  static_pages:
+    home: "Home"
+    help: "Helps"
+    login: "Log in"
+    eng: "English"
+    vie: "Vietnamese"
+    about: "About"
+    contact: "Contact"
+    news: "News"
+    base_title: "Ruby on Rails Tutorial"
+    ruby: "Ruby on Rails"
+    app: "Sample App"
+    author: "Michael Hartl"
+  link:
+    base_link: "https://www.railstutorial.org/"
+    michael: "https://www.michaelhartl.com/"
+    learn_enough: "https://www.learnenough.com/"
+    book: "https://www.railstutorial.org/book"
+    screen: "https://screencasts.railstutorial.org/"
+    rails: "https://rubyonrails.org/"
+    contact: "https://www.railstutorial.org/contact"
+    help: "https://www.railstutorial.org/help"
+  about:
+    paragraph_1: ", part of the"
+    paragraph_2: "family of tutorials, is a"
+    and: " and"
+    paragraph_3: " to teach web development with"
+    paragraph_4: ". This is the sample app for the tutorial."
+  contact:
+    page: "Contact Page"
+    paragraph_1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+  help:
+    page: "Rails Tutorial help page"
+    paragraph_1: "Get help on the Ruby on Rails Tutorial at the"
+    paragraph_2: ". To get help on this sample app, see the"
+    paragraph_3: " book."
+  home:
+    welcome: "Welcome to the Sample App"
+    paragraph_1: "This is the home page for the"
+    paragraph_2: "sample application."
+    signup: "Sign up now!"
+  users:
+    title: "Users new"
+    paragraph_1: "Find me in app/views/users/new.html.erb</"
