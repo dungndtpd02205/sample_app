@@ -1,13 +1,16 @@
 class User < ApplicationRecord
-  before_save{email.downcase!}
+  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i.freeze
+
   validates :name, presence: true,
     length: {maximum: Settings.input.name.max_length}
-  VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i.freeze
   validates :email, presence: true,
     length: {maximum: Settings.input.email.max_length},
     format: {with: VALID_EMAIL_REGEX},
     uniqueness: true
-  has_secure_password
-  validates :password, presence: true,
+  validates :password,
     length: {minimum: Settings.input.password.min_length}
+
+  before_save{email.downcase!}
+
+  has_secure_password
 end
