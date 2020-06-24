@@ -39,6 +39,4 @@ vi:
     paragraph_1: "Đây là trang chủ của "
     paragraph_2: "ứng dụng mẫu."
     signup: "Đăng ký ngay!"
-  users:
-    title: "Thêm mới người dùng"
-    paragraph_1: "Find me in app/views/users/new.html.erb</"
+

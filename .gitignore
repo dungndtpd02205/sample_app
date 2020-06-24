@@ -38,7 +38,6 @@ app/assets/stylesheets/static_pages.scss
 .rubocop.yml
 .rubocop_disabled.yml
 .rubocop_enabled.yml
-app/helpers/users_helper.rb
 test/**/*
 app/assets/images/rails-logo.svg
 Gemfile.lock
@@ -46,4 +45,6 @@ Gemfile.lock
 config/settings.local.yml
 config/initializers/config.rb
 config/settings/*
-
+config/puma.rb
+config/environments/production.rb
+config/database.yml

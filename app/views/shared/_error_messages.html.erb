@@ -1,0 +1,12 @@
+<% if @user.errors.any? %>
+<div id="error_explanation">
+  <div class="alert alert-danger">
+    <%= t("sigup_attr.form_err", count: @user.errors.count) %>
+  </div>
+  <ul>
+    <% flash[:fail].each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+  </ul>
+</div>
+<% end %>

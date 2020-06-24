@@ -1,0 +1,43 @@
+en:
+  sigup_attr:
+    title: "Sign up"
+    btn_create: "Create my account"
+    form_err: "The form contains %{count} errors"
+    success: "success"
+    fail: "fail"
+    gravatar_url: "https://secure.gravatar.com/avatar/%{gravatar_id}?s=%{size}"
+    warning_mess: "Can't find user id: %{id}!"
+    warning: "warning"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: "can't be blank, please type your name !"
+              too_long: "your name too long ( > %{count}),
+                please try again !"
+            email:
+              blank: "can't be blank, please type your email !"
+              too_long: "your email too long ( > %{count} ),
+                please try again !"
+              invalid: "Email invalid (ex: example@gmail.com)"
+              taken: "Email is exist !"
+            password:
+              blank: "can't be blank, please type your password !"
+              too_long: "your password too long ( > %{count} ),
+                please try again !"
+              too_short: "your password too short ( < %{count} ),
+                please try again !"
+            password_confirmation:
+              blank: "can't be blank, please type password confirmation!"
+              confirmation: "password confirmation doesn't match which password"
+    attributes:
+      user:
+        name: "User Name:"
+        email: "Email:"
+        password: "Password:"
+        password_confirmation: "Confirmation:"
+  attributes:
+    created_at: "Created date"
+    updated_at: "Updated date"
