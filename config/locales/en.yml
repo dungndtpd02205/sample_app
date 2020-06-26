@@ -71,6 +71,3 @@ en:
     paragraph_1: "This is the home page for the"
     paragraph_2: "sample application."
     signup: "Sign up now!"
-  users:
-    title: "Users new"
-    paragraph_1: "Find me in app/views/users/new.html.erb</"

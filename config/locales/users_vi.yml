@@ -1,0 +1,43 @@
+vi:
+  sigup_attr:
+    title: "Đăng ký"
+    btn_create: "Đăng ký tài khoản"
+    form_err: "Trong biểu mẫu chứa %{count} lỗi"
+    success: "success"
+    fail: "fail"
+    gravatar_url: "https://secure.gravatar.com/avatar/%{gravatar_id}?s=%{size}"
+    warning_mess: "Không tìm thấy người dùng có id: %{id}!"
+    warning: "warning"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: "không để trống, hãy nhập tên người dùng !"
+              too_long: "tên người dùng quá dài ( > %{count} ),
+                hãy thử lại !"
+            email:
+              blank: "không để trống, hãy nhập email người dùng !"
+              too_long: "email người dùng quá dài ( > %{count} ),
+                hãy thử lại !"
+              invalid: "Email không hợp lệ (ex: example@gmail.com)"
+              taken: "Email đã tồn tại !"
+            password:
+              blank: "không để trống, hãy nhập mật khẩu người dùng !"
+              too_long: "mật khẩu người dùng quá dài ( > %{count} ),
+                hãy thử lại !"
+              too_short: "mật khẩu người dùng quá ngắn ( < %{count} ),
+                hãy thử lại !"
+            password_confirmation:
+              blank: "không để trống, hãy nhập mật khẩu xác nhận !"
+              confirmation: "mật khẩu xác nhận không khớp với mật khẩu người dùng "
+    attributes:
+      user:
+        name: "Tên người dùng:"
+        email: "Email:"
+        password: "Mật khẩu:"
+        password_confirmation: "Xác nhận mật khẩu:"
+  attributes:
+    created_at: "Ngày tạo"
+    updated_at: "Ngày cập nhật"
