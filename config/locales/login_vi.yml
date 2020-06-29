@@ -1,0 +1,11 @@
+vi:
+  login:
+    attr:
+      title: "Đăng nhập"
+      new_user: "Người dùng mới? "
+      message_fail: "Email hoặc mật khẩu không chính xác"
+      logout: "Đăng xuất"
+      users: "Người dùng"
+      account: "Tài khoản"
+      profile: "Thông tin"
+      settings: "Cài đặt"
