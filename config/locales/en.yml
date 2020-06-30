@@ -43,6 +43,7 @@ en:
     ruby: "Ruby on Rails"
     app: "Sample App"
     author: "Michael Hartl"
+    language: "Language"
   link:
     base_link: "https://www.railstutorial.org/"
     michael: "https://www.michaelhartl.com/"

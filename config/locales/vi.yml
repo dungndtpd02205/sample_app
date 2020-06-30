@@ -11,6 +11,7 @@ vi:
     base_title: "Hướng dẫn Ruby on Rails"
     ruby: "Ruby on Rails"
     app: "Sample App"
+    language: "Ngôn ngữ"
   link:
     base_link: "https://www.railstutorial.org/"
     michael: "https://www.michaelhartl.com/"
