@@ -1,4 +1,5 @@
 class ApplicationController < ActionController::Base
+  include SessionsHelper
 
   before_action :set_locale
 
@@ -16,5 +17,4 @@ class ApplicationController < ActionController::Base
     parsed_locale = params[:locale]
     I18n.available_locales.map(&:to_s).include?(parsed_locale) ? parsed_locale : nil
   end
-
 end

@@ -48,3 +48,5 @@ config/settings/*
 config/puma.rb
 config/environments/production.rb
 config/database.yml
+package.json
+yarn.lock

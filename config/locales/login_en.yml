@@ -1,0 +1,11 @@
+en:
+  login:
+    attr:
+      title: "Log in"
+      new_user: "New user? "
+      message_fail: "Invalid email/password combination"
+      logout: "Log out"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"

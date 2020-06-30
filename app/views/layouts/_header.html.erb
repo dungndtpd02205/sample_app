@@ -7,11 +7,29 @@
           root_path %></li>
         <li><%= link_to t( "static_pages.help" ),
           help_path %></li>
-        <li><%= link_to t( "static_pages.login" ), "#" %></li>
         <li><%= link_to t( "static_pages.eng" ),
           locale: "en" %></li>
         <li><%= link_to t( "static_pages.vie" ),
           locale: "vi" %></li>
+        <% if logged_in? %>
+        <li><%= link_to t( "login.attr.users" ), "#" %></li>
+        <li class="dropdown">
+          <%= link_to t( "login.attr.account" ), "#",
+            class: "dropdown-toggle", data: {toggle: "dropdown" } %>
+          <ul class="dropdown-menu">
+            <li><%= link_to t( "login.attr.profile" ),
+              current_user %></li>
+            <li><%= link_to t( "login.attr.settings" ), "#" %></li>
+            <li class="divider"></li>
+            <li>
+              <%= link_to t( "login.attr.logout" ), logout_path,
+                method: :delete %>
+            </li>
+          </ul>
+        </li>
+        <% else %>
+          <li><%= link_to t( "login.attr.title" ), login_path %></li>
+        <% end %>
       </ul>
     </nav>
   </div>
