@@ -41,3 +41,19 @@ en:
   attributes:
     created_at: "Created date"
     updated_at: "Updated date"
+  edit_attr:
+    title: "Edit user"
+    h1: "Update your profile"
+    change: "Change"
+    submit: "Save changes"
+    mess: "Profile updated"
+    danger: "Please login"
+    warning: "Incorrect user!"
+  list_attr:
+    title: "All users"
+  delete:
+    btn_delete: "delete"
+    confirm: "Are you sure?"
+    mess: "User deleted"
+    fail: "Delete fail"
+

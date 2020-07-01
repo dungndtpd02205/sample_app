@@ -41,3 +41,17 @@ vi:
   attributes:
     created_at: "Ngày tạo"
     updated_at: "Ngày cập nhật"
+  edit_attr:
+    title: "Chỉnh sửa người dùng"
+    h1: "Cập nhật hồ sơ người dùng"
+    change: "Thay đổi"
+    submit: "Lưu thay đổi"
+    mess: "Hồ sơ đã được cập nhật"
+    danger: "Bạn phải đăng nhập trước!"
+    warning: "Không khớp người dùng!"
+  list_attr:
+    title: "Hiển thị người dùng"
+  delete:
+    btn_delete: "Xóa"
+    confirm: "Bạn có chắc chắn muốn xóa"
+    mess: "Người dùng đã bị xóa"

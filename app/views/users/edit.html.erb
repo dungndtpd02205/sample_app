@@ -1,0 +1,14 @@
+<% provide(:title, t( "edit_attr.title" )) %>
+<% provide(:button_text, t( "edit_attr.submit" )) %>
+<h1><%= t "edit_attr.h1" %></h1>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= render "form" %>
+    <div class="gravatar_edit">
+      <%= gravatar_for @user %>
+      <a href="https://gravatar.com/emails" target="_blank">
+        <%= t "edit_attr.change" %>
+      </a>
+    </div>
+  </div>
+</div>
