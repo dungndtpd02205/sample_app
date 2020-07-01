@@ -7,14 +7,15 @@ class User < ApplicationRecord
     length: {maximum: Settings.input.name.max_length}
   validates :email, presence: true,
     length: {maximum: Settings.input.email.max_length},
-    format: {with: VALID_EMAIL_REGEX},
-    uniqueness: true
-  validates :password,
+    format: {with: VALID_EMAIL_REGEX}, uniqueness: true
+  validates :password, allow_nil: true,
     length: {minimum: Settings.input.password.min_length}
 
   before_save{email.downcase!}
 
   has_secure_password
+
+  scope :name_asc, ->{order :name}
 
   class << self
     def new_token

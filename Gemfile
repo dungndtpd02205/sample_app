@@ -6,7 +6,9 @@ ruby "2.7.1 "
 gem "bcrypt", "3.1.13"
 gem "bootsnap", "1.4.6", require: false
 gem "bootstrap-sass", "3.4.1"
+gem "bootstrap-will_paginate"
 gem "config"
+gem "faker"
 gem "jbuilder", "2.10.0"
 gem "puma", "4.3.5"
 gem "rails", "6.0.2.2"
@@ -14,6 +16,7 @@ gem "rails-i18n"
 gem "sass-rails", "6.0.0"
 gem "turbolinks", "5.2.1"
 gem "webpacker", "4.2.2"
+gem "will_paginate"
 
 group :development, :test do
   gem "byebug", "11.1.3", platforms: [:mri, :mingw, :x64_mingw]
