@@ -17,7 +17,6 @@ class UsersController < ApplicationController
       flash[:info] = t "mail.info"
       redirect_to root_url
     else
-      flash[:fail] = @user.errors.full_messages
       render :new
     end
   end
