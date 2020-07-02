@@ -55,3 +55,15 @@ vi:
     btn_delete: "Xóa"
     confirm: "Bạn có chắc chắn muốn xóa"
     mess: "Người dùng đã bị xóa"
+    fail: "Xóa thất bại"
+  user_mailer:
+    account_activation:
+      subject: "Kích hoạt tài khoản"
+  mail:
+    hi: "Chào %{name}"
+    welcom: "Chào mừng đến Sample App! nhấn vào link bên dưới để kích hoạt tài khoản của bạn:"
+    active: "Kích hoạt"
+    success: "Tai khoản đã được kích hoạt!"
+    fail: "Đường dẫn kích hoạt không chính xác"
+    info: "Kiểm tra email của bạn để kích hoạt tài khoản."
+    warning: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để kích hoạt tài khoản."

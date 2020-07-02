@@ -50,3 +50,6 @@ config/environments/production.rb
 config/database.yml
 package.json
 yarn.lock
+
+# Ignore application configuration
+/config/application.yml

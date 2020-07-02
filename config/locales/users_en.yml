@@ -56,4 +56,14 @@ en:
     confirm: "Are you sure?"
     mess: "User deleted"
     fail: "Delete fail"
-
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+  mail:
+    hi: "Hi %{name}"
+    welcom: "Welcome to the Sample App! Click on the link below to activate your account:"
+    active: "Activate"
+    success: "Account activated!"
+    fail: "Invalid activation link"
+    info: "Please check your email to activate your account."
+    warning: "Account not activated. Check your email for the activation link."
