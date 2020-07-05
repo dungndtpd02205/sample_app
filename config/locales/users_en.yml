@@ -59,6 +59,8 @@ en:
   user_mailer:
     account_activation:
       subject: "Account activation"
+    password_reset:
+      subject: "Password reset"
   mail:
     hi: "Hi %{name}"
     welcom: "Welcome to the Sample App! Click on the link below to activate your account:"
@@ -67,3 +69,19 @@ en:
     fail: "Invalid activation link"
     info: "Please check your email to activate your account."
     warning: "Account not activated. Check your email for the activation link."
+  reset_pass:
+    btn: "(forgot password)"
+    info: "Email sent with password reset instructions"
+    danger: "Email address not found"
+    title: "Forgot password"
+    subject: "Password reset"
+    mail_content_1: "To reset your password click the link below:"
+    mail_content_2: "This link will expire in two hours. If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+    action: "Reset password"
+    update: "Update password"
+    blank: "Password can't be empty"
+    success: "Password has been reset."
+    danger_2: "Password reset has expired."
+    warning: "User does'n exist"
+    warning_1: "Invalid user"
+    btn_submit: "Submit"

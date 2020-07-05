@@ -59,6 +59,8 @@ vi:
   user_mailer:
     account_activation:
       subject: "Kích hoạt tài khoản"
+    password_reset:
+      subject: "Đặt lại mật khẩu"
   mail:
     hi: "Chào %{name}"
     welcom: "Chào mừng đến Sample App! nhấn vào link bên dưới để kích hoạt tài khoản của bạn:"
@@ -67,3 +69,19 @@ vi:
     fail: "Đường dẫn kích hoạt không chính xác"
     info: "Kiểm tra email của bạn để kích hoạt tài khoản."
     warning: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để kích hoạt tài khoản."
+  reset_pass:
+    btn: "(Quên mật khẩu)"
+    info: "Email được gửi với hướng dẫn đặt lại mật khẩu"
+    danger: "Không tìm thấy địa chỉ email"
+    title: "Quên mật khẩu"
+    subject: "Đặt lại mật khẩu"
+    mail_content_1: "Để đặt lại mật khẩu của bạn, nhấp vào liên kết dưới đây:"
+    mail_content_2: "Liên kết này sẽ hết hạn trong 2 giờ. Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên."
+    action: "Đặt lại mật khẩu"
+    update: "Cập nhật mật khẩu"
+    blank: "Mật khẩu không thể để trống"
+    success: "Mật khẩu đã được đặt lại."
+    danger_2: "Đặt lại mật khẩu đã hết hạn."
+    warning: "Người dùng không tồn tại"
+    warning_1: "Không đúng người dùng"
+    btn_submit: "Gửi"
