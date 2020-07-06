@@ -3,8 +3,7 @@ class User < ApplicationRecord
 
   attr_accessor :remember_token, :activation_token, :reset_token
 
-  before_save :downcase_email
-  before_create :create_activation_digest
+  has_many :microposts, dependent: :destroy
 
   validates :name, presence: true,
     length: {maximum: Settings.input.name.max_length}
@@ -14,7 +13,8 @@ class User < ApplicationRecord
   validates :password, allow_nil: true,
     length: {minimum: Settings.input.password.min_length}
 
-  before_save{email.downcase!}
+  before_save :downcase_email
+  before_create :create_activation_digest
 
   has_secure_password
 
@@ -45,6 +45,10 @@ class User < ApplicationRecord
 
   def forget
     update_attribute(:remember_digest, nil)
+  end
+
+  def feed
+    Micropost.where("user_id = ?", id)
   end
 
   def authenticated? attribute, token

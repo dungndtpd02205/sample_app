@@ -6,3 +6,9 @@ input:
   password:
     min_length: 6
     max_length: 50
+  content:
+    max_length: 140
+gravatar:
+  size: 50
+post:
+  img_limit: 5

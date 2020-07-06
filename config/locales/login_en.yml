@@ -10,3 +10,4 @@ en:
       profile: "Profile"
       settings: "Settings"
       remember: "Remember me on this computer"
+      danger: "Please login"

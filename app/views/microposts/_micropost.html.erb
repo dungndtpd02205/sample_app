@@ -1,0 +1,27 @@
+<li id="micropost-<%= micropost.id %>">
+  <%= link_to gravatar_for(micropost.user,
+    size: Settings.gravatar.size), micropost.user %>
+  <span class="user"><%= link_to micropost.user.name,
+    micropost.user %></span>
+  <span class="content">
+    <%= micropost.content %>
+    <%= image_tag micropost.display_image if micropost.image.attached? %>
+  </span>
+   <p hidden = true id = "valid"><%= t "micro.img_validate" %></p>
+  <span class="timestamp">
+    <%= t("micro.time", time: time_ago_in_words(micropost.created_at)) %>
+    <% if current_user? micropost.user %>
+    <%= link_to t( "micro.del" ), micropost, method: :delete,
+      data: {confirm: t( "micro.confirm" )} %>
+    <% end %>
+  </span>
+
+  <script type="text/javascript">
+
+    $("#micropost_image").bind("change", function() {
+      var size_in_megabytes = this.files[0].size/1024/1024;
+      if (size_in_megabytes > 5) {
+        alert($("#valid").text());
+      }
+    });
+  </script>

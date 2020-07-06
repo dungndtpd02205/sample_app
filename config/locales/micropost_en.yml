@@ -1,0 +1,16 @@
+en:
+  micro:
+    success: "Micropost created!"
+    del_success: "Micropost deleted"
+    confirm: "You sure?"
+    img_validate: "Maximum file size is 5MB. Please choose a smaller file."
+    del: "Delete"
+    place_holder: "Compose new micropost..."
+    view: "view my profile"
+    microp: "micropost"
+    feed: "Micropost Feed"
+    rails_logo: "Rails logo"
+    submit: "Post"
+    time: "Posted %{time} ago."
+
+
